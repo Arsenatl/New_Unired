@@ -2,26 +2,107 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+/* Div */
+@layer components {
+  .container{
+    @apply max-w-[1080px]
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@layer components {
+  .row{
+    @apply -mx-5
+  }
+}
+
+@layer components {
+  .flex-between{
+    @apply  flex justify-between items-center
+  }
+}
+
+@layer components {
+  .flex-center{
+    @apply  flex items-center
+  }
+}
+
+/* Fonts */
+@layer components {
+  .style-italic {
+    @apply text-[24px] leading-[29px] italic font-bold
+  }
+}
+
+@layer components {
+  .text-14 {
+    @apply text-[14px] leading-[21px] font-normal text-[#455464] tracking-[0.02em]
+  }
+}
+
+@layer components {
+  .text-16 {
+    @apply text-[16px] leading-[24px] font-bold text-[#1C1C1C] 
+  }
+}
+
+@layer components {
+  .text-18 {
+    @apply text-[16px] leading-[25px] font-normal tracking-[0.04em] text-[#455464]
+  }
+}
+
+@layer components {
+  .text-20 {
+    @apply text-[20px] leading-[35px] font-normal tracking-[0.04em] text-[#455464]
+  }
+}
+
+@layer components {
+  .text-24 {
+    @apply text-[24px] leading-[27px] font-light tracking-[0.04em] text-[#455464]
+  }
+}
+
+@layer components {
+  .text-36 {
+    @apply text-[36px] leading-[54px] font-bold tracking-[0.02em] text-[#1C1C1C]
+  }
+}
+
+
+@layer components {
+  .text-40 {
+    @apply text-[36px] leading-[56px] font-bold tracking-[0.02em] text-[#1C1C1C]
+  }
+}
+
+@layer components {
+  .text-64 {
+    @apply text-[60px] leading-[90px] font-semibold text-[#1C1C1C]
+  }
+}
+
+@layer components {
+  .text-96 {
+    @apply text-[86px] leading-[85px] font-medium text-[#1C1C1C]
+  }
+}
+
+@layer components {
+  .btn-16 {
+    @apply text-[16px] leading-[24px] font-normal tracking-[0.01em] text-white py-4 px-8 bg-[#F44949] rounded-[40px]
+  }
+}
+
+
+@layer components {
+  .bg-set {
+    @apply bg-cover bg-no-repeat bg-center
+  }
+}
+
+
+button.group{
+  display: none !important;
 }
