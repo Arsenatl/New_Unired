@@ -17,7 +17,7 @@ export default function UcoinHeader() {
           <h3 className="text-18 text-[#F44949] font-semibold tracking-normal">Ucoin</h3>
         </div>
       </div>
-      <header className="bg-ucoinHeader bg-set pt-[50px] pb-[480px]">
+      <header className="bg-ucoinHeader bg-set pt-[90px] pb-[500px]">
         <div className="container">
           <div className="row">
             <div>

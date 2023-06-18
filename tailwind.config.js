@@ -27,14 +27,16 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
+        homeHeader:"url('/Group 2601.svg')",
+        homeUser:"url('/Group 2602.svg')",
         homePossibilities:"url('/Rectangle 1611.png')",
         homeFacts:"url('/Group 2603.svg')",
         homeFooter:"url('/Group 2604.png')",
-        moneyTRImg:"url('/Group 2605.svg')",
+        moneyTRImg:"url('/Group 2607.png')",
         paymentsHeader:"url('/paymentsHeader.svg')",
-        visaHeader:"url('/visaHeader.svg')",
+        visaHeader:"url('/visaHeader.png')",
         ucoinHeader:"url('/ucoin.svg')",
-        myhomeHeader:"url('/myHome.svg')",
+        myhomeHeader:"url('/Group 2605.png')",
         myHomeServices:"url('/Group 2606.svg')",
       }
     },

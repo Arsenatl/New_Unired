@@ -17,7 +17,7 @@ function MoneyTransfersHeader() {
           <h3 className="text-18 text-[#F44949] font-semibold tracking-normal">Денежные переводы</h3>
         </div>
       </div>
-      <header className="bg-moneyTRImg bg-set pt-[93px] pb-[420px]  mb-36">
+      <header className="bg-moneyTRImg bg-set mt-[21px] pt-[80px] pb-[660px]  mb-36">
         <div className="container">
           <div className="row">
             <div>

@@ -13,25 +13,27 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <>
-    <HomeNav/>
-      <HomeHeader />
+      <div className='bg-homeHeader bg-set py-1 mb-8'>
+        <HomeNav />
+        <HomeHeader />
+      </div>
       <Banks />
       <HomeFinances />
       <HomeUsers />
       <WhyUnired />
-      <HomePossibilities/>
-      <HomeFacts/>
-      <HomeStart/>
-      <HomeFooter/>
+      <HomePossibilities />
+      <HomeFacts />
+      <HomeStart />
+      <HomeFooter />
 
-      <Image
+      {/* <Image
         width={1440}
         height={530}
         src={'/Group 2601.svg'}
         alt='color-red'
         priority
-        className='absolute top-0 z-[-1]'
-      />
+        className='absolute w-full top-0 z-[-1]'
+      /> */}
     </>
   )
 }

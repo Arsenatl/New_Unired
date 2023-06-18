@@ -17,7 +17,7 @@ export default function VisaHeader() {
           <h3 className="text-18 text-[#F44949] font-semibold tracking-normal">Карты Visa</h3>
         </div>
       </div>
-      <header className="bg-visaHeader bg-set pt-[0px] pb-[200px]">
+      <header className="bg-visaHeader bg-set  pt-[50px] pb-[300px]">
         <div className="container">
           <div className="row">
             <div>

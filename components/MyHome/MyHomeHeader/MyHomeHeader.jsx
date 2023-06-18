@@ -17,7 +17,7 @@ export default function MyHomeHeader() {
           <h3 className="text-18 text-[#F44949] font-semibold tracking-normal">Мой дом</h3>
         </div>
       </div>
-      <header className="bg-myhomeHeader bg-set pt-[50px] pb-[280px]">
+      <header className="bg-myhomeHeader bg-set pt-[90px] pb-[280px]">
         <div className="container">
           <div className="row">
             <div>

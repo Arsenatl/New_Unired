@@ -12,7 +12,7 @@ export default async function WhyUnired() {
     const data = await getData()
     return (
         <section>
-            <div className="container mt-[600px] mb-[130px]">
+            <div className="container mt-16 mb-[130px]">
                 <div className="row">
                     <h2 className='text-18 tracking-[0.01em] font-bold text-[#EF2B23]'>Почему Unired</h2>
                     <h1 className='text-36 mt-[30px] mb-[70px]'>Лучшее мобильное приложение для перевода <b></b> из Узбекистана в другие страны</h1>
