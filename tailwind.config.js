@@ -32,6 +32,10 @@ module.exports = {
         homeFooter:"url('/Group 2604.png')",
         moneyTRImg:"url('/Group 2605.svg')",
         paymentsHeader:"url('/paymentsHeader.svg')",
+        visaHeader:"url('/visaHeader.svg')",
+        ucoinHeader:"url('/ucoin.svg')",
+        myhomeHeader:"url('/myHome.svg')",
+        myHomeServices:"url('/Group 2606.svg')",
       }
     },
   },

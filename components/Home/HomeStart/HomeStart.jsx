@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import ButtonHomeStart from './ButtonHomeStart'
+import ButtonHomeMore from './ButtonHomeMore'
 
 export default function HomeStart() {
     return (
@@ -22,15 +23,7 @@ export default function HomeStart() {
                                 />
                                 <h3 className='before:content-[" "] before:block before:h-4 before:w-[2px] before:bg-[#F44949] before:mr-3 before:-ml-3 flex-center text-16 mt-7'>Быстрота операции</h3>
                                 <p className='text-16 text-[#455464] font-normal tracking-normal mt-2 mb-3'>Arcu dictum varius duis at. Non tellus orci ac auctorius sit amet mattis. Iaculis at erat.</p>
-                                <div className="flex-center gap-2">
-                                    <p className='text-18 font-medium tracking-wide text-[#1C1C1C]'>Узнать подробнее</p>
-                                    <Image
-                                        width={32}
-                                        height={32}
-                                        src={'/arrow-right-black.svg'}
-                                        alt='right'
-                                    />
-                                </div>
+                                <ButtonHomeMore/>
                             </div>
                             <div>
                                 <Image
@@ -41,15 +34,7 @@ export default function HomeStart() {
                                 />
                                 <h3 className='before:content-[" "] before:block before:h-4 before:w-[2px] before:bg-[#F44949] before:mr-3 before:-ml-3 flex-center text-16 mt-7'>Для сотрудничества</h3>
                                 <p className='text-16 text-[#455464] font-normal tracking-normal mt-2 mb-3'>Arcu dictum varius duis at. Non tellus orci ac auctorius sit amet mattis. Iaculis at erat.</p>
-                                <div className="flex-center gap-2">
-                                    <p className='text-18 font-medium tracking-wide text-[#1C1C1C]'>Узнать подробнее</p>
-                                    <Image
-                                        width={32}
-                                        height={32}
-                                        src={'/arrow-right-black.svg'}
-                                        alt='right'
-                                    />
-                                </div>
+                                <ButtonHomeMore/>
                             </div>
                         </div>
                     </div>

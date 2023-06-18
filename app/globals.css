@@ -48,7 +48,7 @@
 
 @layer components {
   .text-18 {
-    @apply text-[16px] leading-[25px] font-normal tracking-[0.04em] text-[#455464]
+    @apply text-[18px] leading-[25px] font-normal tracking-[0.04em] text-[#455464]
   }
 }
 

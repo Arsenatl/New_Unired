@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function PaymentsBank() {
   return (
-    <div className='container'>
+    <div className='container mt-7'>
             <div className="row flex-between">
 
                 <Image

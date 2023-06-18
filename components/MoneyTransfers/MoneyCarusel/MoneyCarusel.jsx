@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function MoneyCarusel() {
     return (
-        <div className='w-full h-80 container mt-16'>
+        <section className='w-full h-80 container mt-16'>
             <div className="row">
 
                 <div className="w-full h-full flex justify-center">
@@ -61,7 +61,7 @@ export default function MoneyCarusel() {
                     </Carousel>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

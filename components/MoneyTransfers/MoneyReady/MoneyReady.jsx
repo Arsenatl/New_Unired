@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function MoneyReady() {
     return (
         <section>
-            <div className="container">
+            <div className="container mb-20">
                 <div className="row">
                     <div className="grid grid-cols-2 gap-20">
                         <div>

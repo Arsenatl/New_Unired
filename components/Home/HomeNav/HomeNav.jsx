@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import HomeNavDown from '../HomeNavDown/HomeNavDown'
+import HomeNavDown from './HomeNavDown'
 
 export default function HomeNav() {
     return (
