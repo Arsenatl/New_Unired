@@ -6,10 +6,10 @@ async function getData() {
 
     return res
 }
-export default async function VisaWhyUnired() {
+export default async function UcoinWhyUnired() {
     const data = await getData()
     return (
-        <section className="container mt-28">
+        <section className="container -mt-24 ">
             <div className="row">
                 <div className="grid grid-cols-4 gap-[30px] mb-32">
                     {
