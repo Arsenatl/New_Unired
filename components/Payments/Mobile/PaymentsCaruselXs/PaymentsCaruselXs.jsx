@@ -2,7 +2,7 @@
 
 import { Carousel } from 'flowbite-react';
 import Image from 'next/image';
-import img from '@/public/payswiper.png'
+import img from '@/public/paySwiper.png'
 
 export default function PaymentsCaruselXs() {
     return (
