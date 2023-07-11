@@ -4,26 +4,26 @@
 
 /* Div */
 @layer components {
-  .container{
+  .container {
     @apply max-w-[1080px]
   }
 }
 
 @layer components {
-  .row{
+  .row {
     @apply -mx-5
   }
 }
 
 @layer components {
-  .flex-between{
-    @apply  flex justify-between items-center
+  .flex-between {
+    @apply flex justify-between items-center
   }
 }
 
 @layer components {
-  .flex-center{
-    @apply  flex items-center
+  .flex-center {
+    @apply flex items-center
   }
 }
 
@@ -35,20 +35,51 @@
 }
 
 @layer components {
+  .style-italic-xs {
+    @apply text-[28px] leading-normal italic font-bold
+  }
+}
+
+@layer components {
+  .text-13-xs {
+    @apply text-[13px] leading-[150%] font-bold text-[#EF2B23] tracking-[0.13px]
+  }
+}
+
+@layer components {
   .text-14 {
     @apply text-[14px] leading-[21px] font-normal text-[#455464] tracking-[0.02em]
   }
 }
 
 @layer components {
-  .text-16 {
-    @apply text-[16px] leading-[24px] font-bold text-[#1C1C1C] 
+  .text-14-xs {
+    @apply text-[14px] leading-[150%] font-light text-[#455464] tracking-[0.56px]
   }
 }
 
 @layer components {
+  .text-16 {
+    @apply text-[16px] leading-[24px] font-bold text-[#1C1C1C]
+  }
+}
+
+@layer components {
+  .text-16-xs {
+    @apply text-[16px] leading-normal font-semibold text-white tracking-[0.25px]
+  }
+}
+
+
+@layer components {
   .text-18 {
     @apply text-[18px] leading-[25px] font-normal tracking-[0.04em] text-[#455464]
+  }
+}
+
+@layer components {
+  .text-18-xs {
+    @apply text-[18px] leading-normal font-normal text-[#1C1C1C]
   }
 }
 
@@ -59,8 +90,26 @@
 }
 
 @layer components {
+  .text-20-xs {
+    @apply text-[20px] leading-[150%] font-bold tracking-[0.2px] text-[#EF2B23]
+  }
+}
+
+@layer components {
   .text-24 {
     @apply text-[24px] leading-[27px] font-light tracking-[0.04em] text-[#455464]
+  }
+}
+
+@layer components {
+  .text-24-xs {
+    @apply text-[24px] leading-[150%] font-bold tracking-[0.48px] text-[#1C1C1C]
+  }
+}
+
+@layer components {
+  .text-32-xs {
+    @apply text-[32px] leading-[150%] font-bold text-[#1C1C1C]
   }
 }
 
@@ -70,10 +119,22 @@
   }
 }
 
+@layer components {
+  .text-36-xs {
+    @apply text-[36px] leading-[130%] font-semibold text-[#1C1C1C]
+  }
+}
+
 
 @layer components {
   .text-40 {
     @apply text-[36px] leading-[56px] font-bold tracking-[0.02em] text-[#1C1C1C]
+  }
+}
+
+@layer components {
+  .text-40-xs {
+    @apply text-[40px] leading-[130%] font-semibold text-[#1C1C1C]
   }
 }
 
@@ -95,6 +156,25 @@
   }
 }
 
+@layer components {
+  .btn-16-xs {
+    @apply text-[16px] leading-normal font-normal tracking-[0.25px] text-white py-4 px-8 bg-[#F44949] rounded-[40px] drop-shadow-[0px_3px_10px_0px_rgba(241_79_73_0.20)]
+  }
+}
+
+
+
+@layer components {
+  .btn-14-xs {
+    @apply text-[14px] leading-[150%] font-bold drop-shadow-[0px_3px_10px_0px_rgba(241_79_73_0.20)] text-white py-4 px-8 bg-[#F44949] rounded-[40px]
+  }
+}
+
+@layer components {
+  .btn-full {
+    @apply text-[16px] w-full gap-3 leading-normal font-semibold text-white py-4 flex items-center justify-center bg-[#F44949] rounded-[40px]
+  }
+}
 
 @layer components {
   .bg-set {
@@ -102,7 +182,30 @@
   }
 }
 
+@layer components {
+  .mt-10px {
+    @apply mt-[10px]
+  }
+}
 
-button.group{
+@layer components {
+  .mr-10px {
+    @apply mr-[10px]
+  }
+}
+
+@layer components {
+  .mb-10px {
+    @apply mb-[10px]
+  }
+}
+
+@layer components {
+  .ml-10px {
+    @apply ml-[10px]
+  }
+}
+
+button.group {
   display: none !important;
 }
