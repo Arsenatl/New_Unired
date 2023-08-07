@@ -17,8 +17,7 @@ export default function PaymentsHeaderXs() {
         </div>
         <div>
           <h1 className="text-36-xs my-5">Оплачивайте <br /> услуги в <br /> Узбекистане из <br /> России</h1>
-          <p className="text-13-xs font-light tracking-[0.52px] text-[#455464]">Lorem ipsum skdb lhiiwbfbhjb wifirwig gapi ie igt
-            kbrjtj lke biapi pigu iq pei pie inekjbnk a enpi . aeekinetbka pe ggtrrjbgjebjgbjdbjbvdbeenknkfjnknwknk ehgiheig</p>
+          <p className="text-13-xs font-light tracking-[0.52px] text-[#455464]">Теперь вы можете легко оплачивать услуги в Узбекистане прямо из России с помощью нашего приложения Unired. Никаких сложных процедур и комиссий - просто быстрая и удобная оплата для вашего комфорта!</p>
           <PaymentsHeaderBtnXs />
 
         </div>

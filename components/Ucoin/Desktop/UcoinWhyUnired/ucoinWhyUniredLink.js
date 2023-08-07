@@ -1,6 +1,6 @@
 export const ucoinLink = [
-    { id: 1, img: '/note-2.svg', logo: 'Удобство в использовании', textStart: 'Varius morbi enim nunc faucibus a', span: 'pellentesque sit', textFinish: 'amet. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Tristique senectus et netus et malesuada fames.' },
-    { id: 2, img: '/briefcase.svg', logo: 'Быстрота операции', textStart: 'Arcu dictum varius duis at. Non tellus orci ac auctor. Amet', span: 'consectetur adipiscing', textFinish: 'elit ut aliquam purus sit. Interdum varius sit amet mattis. Iaculis at erat.' },
-    { id: 3, img: '/profile-2user.svg', logo: 'Крутая техподдержка', textStart: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.', span: 'Excepteur sint', textFinish: 'occaecat cupidatat non proident.' },
-    { id: 4, img: '/calculator.svg', logo: 'Самый хороший курс', textStart: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod', span: 'tempor incididunt', textFinish: 'ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.' },
+    { id: 1, img: '/note-2.svg', logo: 'Гибкость и свобода', textStart: 'Ucoin предоставляет вам', span: ' электронные деньги ', textFinish: 'в удобной форме, позволяя осуществлять платежи и переводы в любое время и в любом месте.' },
+    { id: 2, img: '/briefcase.svg', logo: 'Безопасность и конфиденциальность', textStart: 'Ucoin обеспечивает', span: ' высокий уровень защиты ', textFinish: 'ваших финансовых операций, используя современные технологии шифрования и безопасности.' },
+    { id: 3, img: '/profile-2user.svg', logo: 'Международная доступность', textStart: 'С Ucoin вы можете легко проводить границы и осуществлять ', span: ' международные переводы, ', textFinish: ' экономя время и средства.' },
+    { id: 4, img: '/calculator.svg', logo: 'Удобный обмен валюты', textStart: 'Ucoin позволяет вам мгновенно обменивать валюту по ', span: 'выгодным курсам,', textFinish: 'сокращая комиссии и расходы.' },
 ]

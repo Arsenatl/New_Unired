@@ -3,8 +3,8 @@ import imgTwo from '@/public/briefcase.svg'
 import imgThree from '@/public/profile-2user.svg'
 import imgFour from '@/public/calculator.svg'
 export const VisaWhyUniredLinksXs = [
-    { id: 1, img: imgOne, h2: 'Удобство в использовании', pOne: 'Varius morbi enim nunc faucibus a', span: 'pellentesque sit', pTwo: 'amet. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Tristique senectus et netus et malesuada fames.' },
-    { id: 2, img: imgTwo, h2: 'Быстрота операции', pOne: 'Arcu dictum varius duis at. Non tellus orci ac auctor. Amet', span: 'consectetur adipiscing', pTwo: 'elit ut aliquam purus sit. Interdum varius sit amet mattis. Iaculis at erat.' },
-    { id: 3, img: imgThree, h2: 'Крутая техподдержка', pOne: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.', span: 'Excepteur sint', pTwo: 'occaecat cupidatat non proident.' },
-    { id: 4, img: imgFour, h2: 'Самый хороший курс', pOne: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod', span: 'tempor incididunt', pTwo: 'ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.' },
+    { id: 1, img: imgOne, h2: 'Мировая доступность', pOne: ' С нашими картами', span: ' Visa ', pTwo: 'вы можете совершать платежи и снятия наличных по всему миру, где принимаются карты Visa.' },
+    { id: 2, img: imgTwo, h2: 'Безопасность и защита', pOne: 'Наслаждайтесь высоким уровнем', span: ' безопасности  ', pTwo: 'благодаря технологиям шифрования и многофакторной аутентификации, обеспечивая защиту ваших финансовых данных.' },
+    { id: 3, img: imgThree, h2: 'Гибкость управления', pOne: 'Управляйте своими финансами с удобством благодаря онлайн-банкингу и мобильному приложению', span: ' Unired, ', pTwo: 'контролируя траты и баланс в реальном времени.' },
+    { id: 4, img: imgFour, h2: 'Привилегии и бонусы', pOne: 'Получайте доступ к специальным предложениям, ', span: 'скидкам и бонусам ', pTwo: 'от партнеров Unired, делая использование карт Visa еще более выгодным.' },
 ]

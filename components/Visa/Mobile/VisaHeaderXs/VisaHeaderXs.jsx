@@ -18,8 +18,7 @@ export default function VisaHeaderXs() {
         <div>
           <h1 className="text-36-xs my-5">Виртуальные и <br /> классические карты<br />
             <span className="text-[#F44949]">Visa</span></h1>
-          <p className="text-13-xs font-light tracking-[0.52px] text-[#455464]">Lorem ipsum skdb lhiiwbfbhjb wifirwig gapi ie igt
-            kbrjtj lke biapi pigu iq pei pie inekjbnk a enpi . aeekinetbka pe ggtrrjbgjebjgbjdbjbvdbeenknkfjnknwknk ehgiheig</p>
+          <p className="text-13-xs font-light tracking-[0.52px] text-[#455464]">Откройте мир возможностей с нашими Виртуальными и Классическими картами Visa от Unired. Будьте уверены в безопасности и удобстве платежей, независимо от того, где вы находитесь.</p>
           <MoneyHeaderBtnXs />
 
         </div>

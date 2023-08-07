@@ -22,9 +22,7 @@ export default function MyHomeHeader() {
           <div className="row">
             <div>
               <h1 className="text-64 text-[#F44949]">Плати за <br /> домашние услуги <br /> быстро онлайн</h1>
-              <p className="text-18 mt-6 mb-5">Lorem ipsum skdb lhiiwbfbhjb wifirwig gapi ie igt <br />
-                kbrjtj lke biapi pigu iq pei pie inekjbnk a enpi . aeekinetbka <br /> pe ggtrrjbgjebjgbjdbjbvdbeenknkfjnknwknk ehgiheig
-              </p>
+              <p className="text-18 mt-6 mb-5">Просто откройте приложение, выберите нужную услугу <br /> - ЖКХ, интернет, сотовую связь и многое другое, - и <br />осуществите онлайн-оплату в несколько кликов.</p>
               <ButtonMyHomeHeader/>
             </div>
           </div>

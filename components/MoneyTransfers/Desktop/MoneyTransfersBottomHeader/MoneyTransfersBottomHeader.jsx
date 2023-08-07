@@ -18,7 +18,7 @@ export default async function MoneyTransfersBottomHeader() {
                 {
                     data.map((element, value) => {
                         return (
-                            <div>
+                            <div key={value}>
                                 <Image
                                     width={48}
                                     height={48}

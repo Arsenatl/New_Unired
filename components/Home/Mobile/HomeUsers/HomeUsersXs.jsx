@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function HomeUsersXs() {
     return (
-        <section className='bg-set bg-homeUserXs pt-[310px] pb-[860px] -mt-[150px]'>
+        <section className='bg-set bg-homeUserXs pt-[310px] pb-[860px] mb-28'>
             <div className='container'>
                 <h2 className='text-13-xs font-semibold text-white tracking-normal'>Пользователи</h2>
                 <h3 className='text-24-xs text-white tracking-normal font-extrabold mt-5 mb-10px'>Мы заботимся о наших клиентах, потаму что они наш самый ценный актив</h3>

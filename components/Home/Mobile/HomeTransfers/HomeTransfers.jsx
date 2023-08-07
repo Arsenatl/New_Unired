@@ -14,19 +14,22 @@ export default async function HomeTransfers() {
             {
                 data.map((element, value) => {
                     return (
-                        <div>
-                            <div key={value} className="container">
+                        <div key={value}>
+                            <div className="container">
                                 <h1 className="text-13-xs">{element.h1}</h1>
                                 <h2 className="text-24-xs mt-5 mb-1">{element.h2}</h2>
                                 <p className="text-14-xs font-normal">{element.pOne}</p>
                                 <HomeTransfersBtn img={element.icon} text={element.btnText} />
-                                <p className="text-14-xs font-normal">{element.pTwo}{element.spanOne}{element.spanTwo}{element.spanThree}</p>
+                                <p className="text-14-xs font-normal">{element.pTwo} <span className="text-[#EF2B23]">{element.spanOne}</span> {element.spanTwo} <span className="text-[#EF2B23]">{element.spanThree}</span></p>
                             </div>
+                            <div className="flex justify-center">
+
                             <Image
                                 src={element.img}
                                 alt="phone"
                                 className="mt-5"
-                            />
+                                />
+                                </div>
                         </div>
                     )
                 })

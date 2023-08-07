@@ -12,7 +12,7 @@ export default function HomeHeaderButtonXs() {
                 src={'/box.svg'}
                 alt='cube'
             />
-            Пользуетесь нашими сервисами
+            Воспользуйтесь нашим сервисом
         </button>
     )
 }

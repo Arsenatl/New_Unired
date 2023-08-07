@@ -20,7 +20,7 @@ export default function HomeStartXs() {
             <h3 className="text-16-xs text-[#1C1C1C] tracking-normal font-bold">Быстрота операции</h3>
           </div>
           <div className="ml-[22px]">
-            <p className="text-14-xs tracking-normal font-normal mb-6">Arcu dictum varius duis at. Non tellus <br /> orci ac auctorius sit amet mattis. Iaculis <br /> at erat.</p>
+            <p className="text-14-xs tracking-normal font-normal mb-6 ml-[22px]">С нами у вас быстрые операции <br /> и надежная платформа, обеспечивающая <br /> моментальные денежные переводы <br /> и удобные платежи.</p>
             <HomeStartMoreBtnXs />
           </div>
         </div>
@@ -35,7 +35,7 @@ export default function HomeStartXs() {
             <h3 className="text-16-xs text-[#1C1C1C] tracking-normal font-bold">Для сотрудничества</h3>
           </div>
           <div className="ml-[22px]">
-            <p className="text-14-xs tracking-normal font-normal mb-6">Arcu dictum varius duis at. Non tellus <br /> orci ac auctor. Amet elit ut aliquam <br /> purus sit.</p>
+            <p className="text-14-xs tracking-normal font-normal mb-6 ml-[22px]">Присоединяйтесь к нам и упростите <br />свои финансовые операции уже сегодня!</p>
             <HomeStartMoreBtnXs />
           </div>
         </div>

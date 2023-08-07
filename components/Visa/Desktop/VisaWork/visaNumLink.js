@@ -1,6 +1,6 @@
 export const visaNumLink = [
-    { id: 1, number: 1, logo: 'Удобство в использовании', textStart: 'Varius morbi enim nunc faucibus a', span: 'pellentesque sit', textFinish: 'amet. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Tristique senectus et netus et malesuada fames.' },
-    { id: 2, number: 2, logo: 'Быстрота операции', textStart: 'Arcu dictum varius duis at. Non tellus orci ac auctor. Amet', span: 'consectetur adipiscing', textFinish: 'elit ut aliquam purus sit. Interdum varius sit amet mattis. Iaculis at erat.' },
-    { id: 3, number: 3, logo: 'Крутая техподдержка', textStart: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.', span: 'Excepteur sint', textFinish: 'occaecat cupidatat non proident.' },
-    { id: 4, number: 4, logo: 'Самый хороший курс', textStart: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod', span: 'tempor incididunt', textFinish: 'ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.' },
+    { id: 1, number: 1, logo: 'Выбор и оформление', textStart: 'Выберите тип карты Visa - ', span: 'Виртуальную или Классическую ', textFinish: '- в зависимости от ваших потребностей. Оформите карту через приложение Unired Mobile, заполнив необходимую информацию.' },
+    { id: 2, number: 2, logo: 'Пополнение и активация', textStart: 'Пополните карту через удобный способ -', span: ' банковский перевод ', textFinish: 'или другие доступные методы. После пополнения активируйте карту в приложении.' },
+    { id: 3, number: 3, logo: 'Платежи и траты', textStart: 'Используйте свою карту Visa для оплаты товаров и услуг в магазинах, онлайн-платформах и других местах, где принимают', span: ' карты Visa. ', textFinish: 'Мгновенно отслеживайте траты в приложении Unired Mobile.' },
+    { id: 4, number: 4, logo: 'Безграничные возможности', textStart: 'Воспользуйтесь преимуществами Visa от Unired', span: ' во всем мире. ', textFinish: 'Оплачивайте, снимайте наличные и наслаждайтесь удобством международных финансовых операций.' },
 ]

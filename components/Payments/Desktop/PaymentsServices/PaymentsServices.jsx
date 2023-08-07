@@ -9,9 +9,8 @@ export default function PaymentsServices() {
             </div>
             <div className="row grid grid-cols-2 gap-x-6 mt-6">
                 <div>
-                    <h1 className='text-36 mt-7 mb-5'>Через<span className='text-[#F44949]'>Unired Mobile</span>можно оплатить десятки услуг</h1>
-                    <p className='text-18 font-light'>Lorem ipsum skdb lhiiwbfbhjb wifirwig gapi ie igt
-                        Благодаря использованию новейших технологий и помощи наших партнеров переводы в нашей программе осуществляются очень быстро, в отличие от остальных программ</p>
+                    <h1 className='text-36 mt-7 mb-5'>Оплата десятков услуг в <span className='text-[#F44949]'>Unired mobile</span></h1>
+                    <p className='text-18 font-light'>С Unired Mobile вы получаете широкие возможности для оплаты различных услуг в Узбекистане. Оплачивайте коммунальные услуги, мобильную связь, такси, интернет, нотариальные услуги, игры, развлечения и многое другое - всё прямо через наше удобное приложение.</p>
                 </div>
                 <div className='flex flex-col items-center gap-10'>
                     <div className="flex-between gap-6 py-4 px-11 rounded bg-white shadow-[0px_20px_40px_4px_rgba(0,0,0,0.1)]">

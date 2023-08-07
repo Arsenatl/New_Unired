@@ -15,7 +15,7 @@ export default async function PaymentsNum() {
                     {
                         data.map((element, value) => {
                             return (
-                                <div>
+                                <div key={value}>
                                     <div className='w-8 h-8 bg-[#F4494966] flex justify-center items-center rounded-[50%]'>
                                         <p className='text-18 font-semibold text-[#F44949]'>{element.number}</p>
                                     </div>

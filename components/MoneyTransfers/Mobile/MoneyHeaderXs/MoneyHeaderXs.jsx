@@ -18,8 +18,7 @@ export default function MoneyHeaderXs() {
         <div>
           <h1 className="text-36-xs my-5">Денежные <br /> переводы из <br /> Узбекистана <br />
             <span className="text-[#F44949]">и обратно</span></h1>
-          <p className="text-13-xs font-light tracking-[0.52px] text-[#455464]">Lorem ipsum skdb lhiiwbfbhjb wifirwig gapi ie igt
-            kbrjtj lke biapi pigu iq pei pie inekjbnk a enpi . aeekinetbka pe ggtrrjbgjebjgbjdbjbvdbeenknkfjnknwknk ehgiheig</p>
+          <p className="text-13-xs font-light tracking-[0.52px] text-[#455464]">Unired предоставляет удобные денежные переводы внутри Узбекистана и за ее пределы. Не тратьте время на сложные процедуры, выбирайте Unired - ваш надежный партнер в финансовых операциях!</p>
           <MoneyHeaderBtnXs />
 
         </div>

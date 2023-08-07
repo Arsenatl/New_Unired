@@ -17,8 +17,7 @@ export default function MyHomeHeaderXs() {
         </div>
         <div>
           <h1 className="text-36-xs my-5 text-[#F44949]">Плати за домашние <br /> услуги быстро <br /> онлайн</h1>
-          <p className="text-13-xs font-light tracking-[0.52px] text-[#455464]">Lorem ipsum skdb lhiiwbfbhjb wifirwig gapi ie igt
-            kbrjtj lke biapi pigu iq pei pie inekjbnk a enpi . aeekinetbka pe ggtrrjbgjebjgbjdbjbvdbeenknkfjnknwknk ehgiheig</p>
+          <p className="text-13-xs font-light tracking-[0.52px] text-[#455464]">Просто откройте приложение, выберите нужную услугу - ЖКХ, интернет, сотовую связь и многое другое, - и осуществите онлайн-оплату в несколько кликов.</p>
           <MyHomeHeaderBtnXs />
 
         </div>

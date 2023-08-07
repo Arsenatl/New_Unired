@@ -15,7 +15,7 @@ export default async function MyHomeWhyUnired() {
                     {
                         data.map((element, value) => {
                             return (
-                                <div>
+                                <div key={value}>
                                     <Image
                                         width={48}
                                         height={48}

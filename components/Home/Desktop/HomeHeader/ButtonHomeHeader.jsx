@@ -11,9 +11,9 @@ export default function ButtonHomeHeader() {
                 src={'/box.svg'}
                 alt='cube'
             />
-            Пользуетесь нашими
+            Воспользуйтесь нашим
             <span className='font-bold'>
-                сервисами
+                сервисом
             </span>
         </button>
     )

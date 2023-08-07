@@ -1,4 +1,4 @@
-
+'use client'
 import Banks from '@/components/Home/Desktop/Banks/Banks'
 import HomeFacts from '@/components/Home/Desktop/HomeFacts/HomeFacts'
 import HomeFinances from '@/components/Home/Desktop/HomeFinances/HomeFinances'
@@ -21,6 +21,12 @@ import HomeStartXs from '@/components/Home/Mobile/HomeStartXs/HomeStartXs'
 import HomeTransfers from '@/components/Home/Mobile/HomeTransfers/HomeTransfers'
 import HomeUsersXs from '@/components/Home/Mobile/HomeUsers/HomeUsersXs'
 import HomeWhyUniredXs from '@/components/Home/Mobile/HomeWhyUniredXs/HomeWhyUniredXs'
+
+export const metadata = {
+  title: 'Международный денежный перевод без комиссии из Узбекистана в Россию',
+  description: 'Международные денежные переводы без КОМИССИИ из Узбекистана в Россию и в СНГ',
+  keywords: 'Unired Mobile, Международный денежный перевод с карты на карту без комиссии из Узбекистана в Россию и в СНГ, перевод сумов в рубли'
+}
 
 export default function Home() {
   return (
@@ -53,7 +59,7 @@ export default function Home() {
         <HomePossibilitiesXs />
         <HomeFactsXs />
         <HomeStartXs />
-        <HomeFooterXs/>
+        <HomeFooterXs />
       </div>
     </>
   )

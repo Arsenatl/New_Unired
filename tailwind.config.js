@@ -33,7 +33,7 @@ module.exports = {
         homeUserXs: "url('/Group 2642.svg')",
         homePossibilities: "url('/Rectangle 1611.png')",
         homePossibilitiesXs: "url('/Rectangle 1611 (1).png')",
-        homeFacts: "url('/Group 2603.svg')",
+        homeFacts: "url('/Vector 5 (1).png')",
         homeFactsXs: "url('/Group 2643.svg')",
         homeFooter: "url('/Group 2604.png')",
         homeFooterXs: "url('/Group 2550.png')",

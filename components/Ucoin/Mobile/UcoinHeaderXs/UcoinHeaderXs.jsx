@@ -17,8 +17,7 @@ export default function UcoinHeaderXs() {
         </div>
         <div>
           <h1 className="text-36-xs my-5"><span className="text-[#F44949]">Электронные <br /> деньги </span>удобны в <br /> любое время</h1>
-          <p className="text-13-xs font-light tracking-[0.52px] text-[#455464]">Lorem ipsum skdb lhiiwbfbhjb wifirwig gapi ie igt
-            kbrjtj lke biapi pigu iq pei pie inekjbnk a enpi . aeekinetbka pe ggtrrjbgjebjgbjdbjbvdbeenknkfjnknwknk ehgiheig</p>
+          <p className="text-13-xs font-light tracking-[0.52px] text-[#455464]">Электронные деньги Ucoin - это ваша свобода выбора и гибкости в финансовых операциях. Забудьте о неудобных наличных, переходите на новый уровень комфорта и безопасности с Ucoin.</p>
           <UcoinHeaderBtnXs />
 
         </div>

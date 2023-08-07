@@ -9,7 +9,7 @@ export default function PaymentsPayment() {
                     <div className="grid grid-cols-[2fr_1fr] gap-24">
                         <div>
                             <h1 className='text-36'>Моментальный платеж</h1>
-                            <p className='text-18 font-light mt-5 my-5'>В дополнение к местным денежным переводам у нас есть возможность <br /> переводить деньги из Узбекистана в 7 стран и на данный момент принимать <br /> деньги только из России, но мы также работаем над добавлением других стран</p>
+                            <p className='text-18 font-light mt-5 my-5'>Забудьте о задержках и ожиданиях - переводы осуществляются мгновенно, обеспечивая быстрое и эффективное управление вашими финансами. Оплачивайте услуги и отправляйте деньги на мгновенные переводы с Unired Mobile, чтобы сэкономить время и получить максимум удовольствия от нашего сервиса!</p>
                             <ButtonPaymentsPayment />
                         </div>
                         <div className="before:content-[' '] before:block before:h-[30%] before:w-[2px] before:bg-[#F44949] before:mr-3 before:-ml-3 flex-center">

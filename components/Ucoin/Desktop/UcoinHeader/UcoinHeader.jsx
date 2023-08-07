@@ -22,8 +22,7 @@ export default function UcoinHeader() {
           <div className="row">
             <div>
               <h1 className="text-64"><span className='text-[#F44949]'>Электронные <br /> деньги</span> удобны в <br /> любое время</h1>
-              <p className="text-18 mt-6 mb-5">Lorem ipsum skdb lhiiwbfbhjb wifirwig gapi ie igt <br />
-                kbrjtj lke biapi pigu iq pei pie inekjbnk a enpi . aeekinetbka <br /> pe ggtrrjbgjebjgbjdbjbvdbeenknkfjnknwknk ehgiheig
+              <p className="text-18 mt-6 mb-5">Электронные деньги Ucoin - это ваша свобода выбора <br /> и гибкости в финансовых операциях. Забудьте о <br /> неудобных наличных, переходите на новый уровень <br /> комфорта и безопасности с Ucoin.
               </p>
               <ButtonUcoinHeader/>
             </div>

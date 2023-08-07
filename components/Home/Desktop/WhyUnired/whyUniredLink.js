@@ -1,6 +1,6 @@
 export const whyUniredLink = [
-    { id: 1, img: '/note-2.svg', logo: 'Удобство в использовании', textStart: 'Varius morbi enim nunc faucibus a', span: 'pellentesque sit', textFinish: 'amet. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Tristique senectus et netus et malesuada fames.' },
-    { id: 2, img: '/briefcase.svg', logo: 'Быстрота операции', textStart: 'Arcu dictum varius duis at. Non tellus orci ac auctor. Amet', span: 'consectetur adipiscing', textFinish: 'elit ut aliquam purus sit. Interdum varius sit amet mattis. Iaculis at erat.' },
-    { id: 3, img: '/profile-2user.svg', logo: 'Крутая техподдержка', textStart: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.', span: 'Excepteur sint', textFinish: 'occaecat cupidatat non proident.' },
-    { id: 4, img: '/calculator.svg', logo: 'Самый хороший курс', textStart: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod', span: 'tempor incididunt', textFinish: 'ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.' },
+    { id: 1, img: '/note-2.svg', logo: 'Удобство в использовании', textStart: 'Забудьте о сложных операциях! ', span: 'Unired ', textFinish: 'предоставляет простой и интуитивно понятный интерфейс, который с легкостью освоят даже новички.' },
+    { id: 2, img: '/briefcase.svg', logo: 'Быстрота операции', textStart: 'Мы ценим ваше время!  ', span: 'Операции с Unired', textFinish: 'выполняются мгновенно, позволяя вам быстро отправлять и получать средства.' },
+    { id: 3, img: '/profile-2user.svg', logo: 'Крутая техподдержка', textStart: ' Наша команда всегда на связи, чтобы помочь вам. Независимо от вопроса,', span: 'вы можете рассчитывать', textFinish: 'на нашу крутую техподдержку.' },
+    { id: 4, img: '/calculator.svg', logo: 'Самый хороший курс', textStart: 'Мы предлагаем самые выгодные  ', span: 'курсы валют,', textFinish: ' чтобы вы могли максимально эффективно использовать свои средства.' },
 ]

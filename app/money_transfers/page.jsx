@@ -17,6 +17,11 @@ import MoneyResultsXs from "@/components/MoneyTransfers/Mobile/MoneyResults/Mone
 import MoneyWhyUnired2Xs from "@/components/MoneyTransfers/Mobile/MoneyWhyUnired2Xs/MoneyWhyUnired2Xs";
 import MoneyWhyUniredXs from "@/components/MoneyTransfers/Mobile/MoneyWhyUniredXs/MoneyWhyUniredXs";
 
+export const metadata = {
+  title: 'Международный денежный перевод без комиссии из Узбекистана в Россию',
+  description: 'Международные денежные переводы без комиссии из Узбекистана в Россию и в СНГ',
+  keywords:'Международный денежный перевод с карты на карту без комиссии из Узбекистана в Россию и в СНГ, перевод сумов в рубли'
+}
 
 export default function page() {
   return (

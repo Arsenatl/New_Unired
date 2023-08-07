@@ -1,7 +1,7 @@
 
 export const VisaWhyUniredLinks2Xs = [
-    { id: 1, h2: 'Удобство в использовании', pOne: 'Varius morbi enim nunc faucibus a', span: 'pellentesque sit', pTwo: 'amet. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Tristique senectus et netus et malesuada fames.' },
-    { id: 2, h2: 'Быстрота операции', pOne: 'Arcu dictum varius duis at. Non tellus orci ac auctor. Amet', span: 'consectetur adipiscing', pTwo: 'elit ut aliquam purus sit. Interdum varius sit amet mattis. Iaculis at erat.' },
-    { id: 3, h2: 'Крутая техподдержка', pOne: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.', span: 'Excepteur sint', pTwo: 'occaecat cupidatat non proident.' },
-    { id: 4, h2: 'Самый хороший курс', pOne: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod', span: 'tempor incididunt', pTwo: 'ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.' },
+    { id: 1, number: 1, h2: 'Выбор и оформление', pOne: 'Выберите тип карты Visa - ', span: 'Виртуальную или Классическую ', pTwo: '- в зависимости от ваших потребностей. Оформите карту через приложение Unired Mobile, заполнив необходимую информацию.' },
+    { id: 2, number: 2, h2: 'Пополнение и активация', pOne: 'Пополните карту через удобный способ -', span: ' банковский перевод ', pTwo: 'или другие доступные методы. После пополнения активируйте карту в приложении.' },
+    { id: 3, number: 3, h2: 'Платежи и траты', pOne: 'Используйте свою карту Visa для оплаты товаров и услуг в магазинах, онлайн-платформах и других местах, где принимают', span: ' карты Visa. ', pTwo: 'Мгновенно отслеживайте траты в приложении Unired Mobile.' },
+    { id: 4, number: 4, h2: 'Безграничные возможности', pOne: 'Воспользуйтесь преимуществами Visa от Unired', span: ' во всем мире. ', pTwo: 'Оплачивайте, снимайте наличные и наслаждайтесь удобством международных финансовых операций.' },
 ]

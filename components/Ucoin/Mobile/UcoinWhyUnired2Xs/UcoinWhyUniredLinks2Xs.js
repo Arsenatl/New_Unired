@@ -1,7 +1,6 @@
 
 export const UcoinWhyUniredLinks2Xs = [
-    { id: 1, h2: 'Удобство в использовании', pOne: 'Varius morbi enim nunc faucibus a', span: 'pellentesque sit', pTwo: 'amet. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Tristique senectus et netus et malesuada fames.' },
-    { id: 2, h2: 'Быстрота операции', pOne: 'Arcu dictum varius duis at. Non tellus orci ac auctor. Amet', span: 'consectetur adipiscing', pTwo: 'elit ut aliquam purus sit. Interdum varius sit amet mattis. Iaculis at erat.' },
-    { id: 3, h2: 'Крутая техподдержка', pOne: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.', span: 'Excepteur sint', pTwo: 'occaecat cupidatat non proident.' },
-    { id: 4, h2: 'Самый хороший курс', pOne: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod', span: 'tempor incididunt', pTwo: 'ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.' },
-]
+    { id: 1, number: 1, h2: 'Создание кошелька', pOne: 'Зарегистрируйте свой электронный кошелек', span: ' Ucoin  ', pTwo: 'в приложении Unired Mobile, просто следуя интуитивному процессу.' },
+    { id: 2, number: 2, h2: 'Пополнение средств', pOne: 'Пополните свой кошелек Ucoin через', span: ' банковскую карту ', pTwo: 'или другие доступные методы, выбрав сумму и валюту.' },
+    { id: 3, number: 3, h2: 'Оплата и переводы', pOne: 'Воспользуйтесь кошельком Ucoin для оплаты товаров, услуг, а также для', span: ' мгновенных переводов денег ', pTwo: 'на другие кошельки Ucoin или банковские карты.' },
+    { id: 4, number: 4, h2: 'Обмен валюты', pOne: 'Выгодно обменивайте Ucoin на', span: ' другие валюты, ', pTwo: 'а также проводите операции обратного обмена, используя выгодные курсы внутри приложения.' },]

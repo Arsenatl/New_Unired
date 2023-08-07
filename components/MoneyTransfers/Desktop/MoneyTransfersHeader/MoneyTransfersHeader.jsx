@@ -24,9 +24,7 @@ function MoneyTransfersHeader() {
               <h1 className="text-64">Денежные переводы <br /> из Узбекистана
               </h1>
               <span className="text-[36px] leading-10 font-medium text-[#F44949]">и обратно</span>
-              <p className="text-18 mt-6 mb-5">Lorem ipsum skdb lhiiwbfbhjb wifirwig gapi ie igt <br />
-                kbrjtj lke biapi pigu iq pei pie inekjbnk a enpi . aeekinetbka <br /> pe ggtrrjbgjebjgbjdbjbvdbeenknkfjnknwknk ehgiheig
-              </p>
+              <p className="text-18 mt-6 mb-5">Unired предоставляет удобные денежные переводы внутри Узбекистана <br /> и за ее пределы. Не тратьте время на сложные процедуры, выбирайте Unired <br /> - ваш надежный партнер в финансовых операциях!</p>
               <ButtonMoneyHeader/>
             </div>
           </div>

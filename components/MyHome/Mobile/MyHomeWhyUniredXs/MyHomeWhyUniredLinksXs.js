@@ -3,8 +3,8 @@ import imgTwo from '@/public/briefcase.svg'
 import imgThree from '@/public/profile-2user.svg'
 import imgFour from '@/public/calculator.svg'
 export const MyHomeWhyUniredLinksXs = [
-    { id: 1, img: imgOne, h2: 'Удобство в использовании', pOne: 'Varius morbi enim nunc faucibus a', span: 'pellentesque sit', pTwo: 'amet. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Tristique senectus et netus et malesuada fames.' },
-    { id: 2, img: imgTwo, h2: 'Быстрота операции', pOne: 'Arcu dictum varius duis at. Non tellus orci ac auctor. Amet', span: 'consectetur adipiscing', pTwo: 'elit ut aliquam purus sit. Interdum varius sit amet mattis. Iaculis at erat.' },
-    { id: 3, img: imgThree, h2: 'Крутая техподдержка', pOne: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.', span: 'Excepteur sint', pTwo: 'occaecat cupidatat non proident.' },
-    { id: 4, img: imgFour, h2: 'Самый хороший курс', pOne: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod', span: 'tempor incididunt', pTwo: 'ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.' },
+    { id: 1, img: imgOne, h2: 'Мгновенная Оплата', pOne: 'С Unired вы можете оплачивать', span: ' домашние услуги ', pTwo: 'онлайн мгновенно, избегая задержек и ожидания.' },
+    { id: 2, img: imgTwo, h2: 'Удобство и Гибкость', pOne: 'Оплачивайте ЖКХ, интернет, сотовую связь и другие услуги в любое удобное для вас время, избавляясь от необходимости', span: ' посещать офисы ', pTwo: 'или стоять в очередях.' },
+    { id: 3, img: imgThree, h2: 'Трекинг Платежей', pOne: 'Отслеживайте историю своих платежей и получайте уведомления о ', span: ' совершенных транзакциях, ', pTwo: 'что позволяет контролировать свои финансы.' },
+    { id: 4, img: imgFour, h2: 'Экономия Ресурсов', pOne: 'Электронная оплата через Unired позволяет сократить использование бумажных', span: ' чеков и ресурсов, ', pTwo: 'способствуя экологически ответственному образу жизни.' },
 ]

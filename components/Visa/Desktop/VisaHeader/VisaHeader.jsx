@@ -22,9 +22,7 @@ export default function VisaHeader() {
           <div className="row">
             <div>
               <h1 className="text-64">Виртуальные и <br /> классические <br /> карты <span className='text-[#F44949]'>Visa</span></h1>
-              <p className="text-18 mt-6 mb-5">Lorem ipsum skdb lhiiwbfbhjb wifirwig gapi ie igt <br />
-                kbrjtj lke biapi pigu iq pei pie inekjbnk a enpi . aeekinetbka <br /> pe ggtrrjbgjebjgbjdbjbvdbeenknkfjnknwknk ehgiheig
-              </p>
+              <p className="text-18 mt-6 mb-5">Откройте мир возможностей с нашими Виртуальными <br /> и Классическими картами Visa от Unired. Будьте уверены <br />в безопасности и удобстве платежей, независимо от того,<br /> где вы находитесь.</p>
               <ButtonVisaHeader/>
             </div>
           </div>

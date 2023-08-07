@@ -17,7 +17,7 @@ export default async function MyHomeWhyUniredXs() {
                 {
                     data.map((element, value) => {
                         return (
-                            <div key={value}>
+                            <div key={value} className='w-[250px]'>
                                 <Image
                                     src={element.img}
                                     alt='icon'
