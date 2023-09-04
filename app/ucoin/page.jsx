@@ -1,14 +1,14 @@
-import UcoinHeader from "@/components/Ucoin/Desktop/UcoinHeader/UcoinHeader";
-import UcoinReady from "@/components/Ucoin/Desktop/UcoinReady/UcoinReady";
-import UcoinWhenUse from "@/components/Ucoin/Desktop/UcoinWhenUse/UcoinWhenUse";
-import UcoinWhyUnired from "@/components/Ucoin/Desktop/UcoinWhyUnired/UcoinWhyUnired";
-import UcoinWork from "@/components/Ucoin/Desktop/UcoinWork/UcoinWork";
-import UcoinBanksXs from "@/components/Ucoin/Mobile/UcoinBanksXs/UcoinBanksXs";
-import UcoinGoalsXs from "@/components/Ucoin/Mobile/UcoinGoalsXs/UcoinGoalsXs";
-import UcoinHeaderXs from "@/components/Ucoin/Mobile/UcoinHeaderXs/UcoinHeaderXs";
-import UcoinReadyXs from "@/components/Ucoin/Mobile/UcoinReadyXs/UcoinReadyXs";
-import UcoinWhyUnired2Xs from "@/components/Ucoin/Mobile/UcoinWhyUnired2Xs/UcoinWhyUnired2Xs";
-import UcoinWhyUniredXs from "@/components/Ucoin/Mobile/UcoinWhyUniredXs/UcoinWhyUniredXs";
+import UcoinHeader from "@/components/uz/Ucoin/Desktop/UcoinHeader/UcoinHeader";
+import UcoinReady from "@/components/uz/Ucoin/Desktop/UcoinReady/UcoinReady";
+import UcoinWhenUse from "@/components/uz/Ucoin/Desktop/UcoinWhenUse/UcoinWhenUse";
+import UcoinWhyUnired from "@/components/uz/Ucoin/Desktop/UcoinWhyUnired/UcoinWhyUnired";
+import UcoinWork from "@/components/uz/Ucoin/Desktop/UcoinWork/UcoinWork";
+import UcoinBanksXs from "@/components/uz/Ucoin/Mobile/UcoinBanksXs/UcoinBanksXs";
+import UcoinGoalsXs from "@/components/uz/Ucoin/Mobile/UcoinGoalsXs/UcoinGoalsXs";
+import UcoinHeaderXs from "@/components/uz/Ucoin/Mobile/UcoinHeaderXs/UcoinHeaderXs";
+import UcoinReadyXs from "@/components/uz/Ucoin/Mobile/UcoinReadyXs/UcoinReadyXs";
+import UcoinWhyUnired2Xs from "@/components/uz/Ucoin/Mobile/UcoinWhyUnired2Xs/UcoinWhyUnired2Xs";
+import UcoinWhyUniredXs from "@/components/uz/Ucoin/Mobile/UcoinWhyUniredXs/UcoinWhyUniredXs";
 
 
 export default function page() {

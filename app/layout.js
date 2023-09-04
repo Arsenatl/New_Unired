@@ -1,11 +1,7 @@
 import './globals.css'
 import localFont from 'next/font/local'
-import NavLink from '@/components/Nav/Desktop/NavLink'
-import Footer from '@/components/Footer/Desktop/Footer'
-import FooterLinks from '@/components/Footer/Desktop/FooterLinks'
-import Nav from '@/components/Nav/Desktop/Nav'
-import NavXs from '@/components/Nav/Mobile/NavXs'
-import FooterXs from '@/components/Footer/Mobile/FooterXs'
+import NavMain from '@/components/Nav/NavMain'
+import FooterMain from '@/components/Footer/FooterMain'
 
 // Font files can be colocated inside of `app`
 const myFont = localFont({
@@ -57,19 +53,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={myFont.className}>
-        <Nav>
-          <NavLink />
-        </Nav>
-        <div className='xs:block hidden'>
-          <NavXs />
-        </div>
+        <NavMain/>
         {children}
-        <Footer>
-          <FooterLinks />
-        </Footer>
-        <div className="hidden xs:block">
-          <FooterXs />
-        </div>
+        <FooterMain/>
       </body>
     </html>
   )

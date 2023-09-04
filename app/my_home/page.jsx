@@ -1,15 +1,13 @@
-
-
-import MyHomeFast from '@/components/MyHome/Desktop/MyHomeFast/MyHomeFast'
-import MyHomeHeader from '@/components/MyHome/Desktop/MyHomeHeader/MyHomeHeader'
-import MyHomeReady from '@/components/MyHome/Desktop/MyHomeReady/MyHomeReady'
-import MyHomeServices from '@/components/MyHome/Desktop/MyHomeServices/MyHomeServices'
-import MyHomeWhyUnired from '@/components/MyHome/Desktop/MyHomeWhyUnired/MyHomeWhyUnired'
-import MyHomeFastXs from '@/components/MyHome/Mobile/MyHomeFastXs/MyHomeFastXs'
-import MyHomeHeaderXs from '@/components/MyHome/Mobile/MyHomeHeaderXs/MyHomeHeaderXs'
-import MyHomeReadyXs from '@/components/MyHome/Mobile/MyHomeReadyXs/MyHomeReadyXs'
-import MyHomeServicesXs from '@/components/MyHome/Mobile/MyHomeServicesXs/MyHomeServicesXs'
-import MyHomeWhyUniredXs from '@/components/MyHome/Mobile/MyHomeWhyUniredXs/MyHomeWhyUniredXs'
+import MyHomeFast from '@/components/uz/MyHome/Desktop/MyHomeFast/MyHomeFast'
+import MyHomeHeader from '@/components/uz/MyHome/Desktop/MyHomeHeader/MyHomeHeader'
+import MyHomeReady from '@/components/uz/MyHome/Desktop/MyHomeReady/MyHomeReady'
+import MyHomeServices from '@/components/uz/MyHome/Desktop/MyHomeServices/MyHomeServices'
+import MyHomeWhyUnired from '@/components/uz/MyHome/Desktop/MyHomeWhyUnired/MyHomeWhyUnired'
+import MyHomeFastXs from '@/components/uz/MyHome/Mobile/MyHomeFastXs/MyHomeFastXs'
+import MyHomeHeaderXs from '@/components/uz/MyHome/Mobile/MyHomeHeaderXs/MyHomeHeaderXs'
+import MyHomeReadyXs from '@/components/uz/MyHome/Mobile/MyHomeReadyXs/MyHomeReadyXs'
+import MyHomeServicesXs from '@/components/uz/MyHome/Mobile/MyHomeServicesXs/MyHomeServicesXs'
+import MyHomeWhyUniredXs from '@/components/uz/MyHome/Mobile/MyHomeWhyUniredXs/MyHomeWhyUniredXs'
 import React from 'react'
 
 export default function page() {
