@@ -122,7 +122,7 @@ export default function NavDownDrop({ props }) {
                         <p className="text-[14px] leading-4 tracking-wider text-[#455464] font-normal">Электрон пуллар</p>
                     </div>
                 </Link>
-                <Link
+                {/* <Link
                     href={'/ucoin'}
                     className="hover:bg-[#FFF3F3] group cursor-pointer duration-300 p-[10px] pr-6 flex-center gap-4 rounded-md">
                     <Image
@@ -144,7 +144,7 @@ export default function NavDownDrop({ props }) {
                         </div>
                         <p className="text-[14px] leading-4 tracking-wider text-[#455464] font-normal">Бизнинг бошқа хизматларимиз</p>
                     </div>
-                </Link>
+                </Link> */}
             </div>
         </div>
     )

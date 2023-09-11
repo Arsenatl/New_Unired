@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
-import { MoneyWhyUniredLinksXs } from './MoneyWhyUniredLinksXs'
+import { generalLinks } from '../../GeneralLink/generalLinks'
 
 async function getData() {
-    const res = MoneyWhyUniredLinksXs
+    const res = generalLinks
     return res
 }
 

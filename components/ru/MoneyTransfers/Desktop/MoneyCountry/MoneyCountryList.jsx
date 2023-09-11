@@ -2,6 +2,7 @@
 import { useState } from "react"
 import { MoneyCountryLink } from "./moneyCountryLink"
 import { MoneyCountryListLink } from "./moneyCountryLink"
+import Image from "next/image"
 
 
 export default function MoneyCountryList() {
@@ -11,7 +12,6 @@ export default function MoneyCountryList() {
     }
 
     const dataCountryList = MoneyCountryListLink?.find(element => element.id === btnId)
-    console.log(dataCountryList);
     return (
         <div className='container mt-16 mb-36'>
             <div className="row">
@@ -40,14 +40,19 @@ export default function MoneyCountryList() {
                         dataCountryList?.content.map((element, link) => {
                             return (
                                 <div key={link} className="flex-center gap-5">
-                                    <div className="w-10 h-10 rounded-[50%] bg-[#D9D9D9]"></div>
+                                    <Image
+                                        src={element.img}
+                                        className="w-10 h-10 rounded-[50%] bg-[#D9D9D9]"
+                                        alt="flag"
+                                    />
                                     <h2 className="text-24 font-semibold text-[#1C1C1C] tracking-wide ">{element.text}</h2>
                                 </div>
+
                             )
                         })
                     }
                 </div>
             </div>
-        </div>
+        </div >
     )
 }

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import ButtonHomeStart from './ButtonHomeStart'
-import ButtonHomeMore from './ButtonHomeMore'
+// import ButtonHomeMore from './ButtonHomeMore'
 
 export default function HomeStart() {
     return (
@@ -23,7 +23,7 @@ export default function HomeStart() {
                                 />
                                 <h3 className='before:content-[" "] before:block before:h-4 before:w-[2px] before:bg-[#F44949] before:mr-3 before:-ml-3 flex-center text-16 mt-7'>Быстрота операции</h3>
                                 <p className='text-16 text-[#455464] font-normal tracking-normal mt-10px mb-3'>С нами у вас быстрые операции и надежная платформа, обеспечивающая моментальные денежные переводы и удобные платежи.</p>
-                                <ButtonHomeMore/>
+                                {/* <ButtonHomeMore/> */}
                             </div>
                             <div>
                                 <Image
@@ -34,7 +34,7 @@ export default function HomeStart() {
                                 />
                                 <h3 className='before:content-[" "] before:block before:h-4 before:w-[2px] before:bg-[#F44949] before:mr-3 before:-ml-3 flex-center text-16 mt-7'>Для сотрудничества</h3>
                                 <p className='text-16 text-[#455464] font-normal tracking-normal mt-10px'>Присоединяйтесь к нам и упростите свои финансовые операции уже сегодня!</p> <br /> <br />
-                                <ButtonHomeMore/>
+                                {/* <ButtonHomeMore/> */}
                             </div>
                         </div>
                     </div>

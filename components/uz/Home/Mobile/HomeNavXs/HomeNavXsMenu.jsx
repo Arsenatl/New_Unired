@@ -145,7 +145,7 @@ export default function HomeNavXsMenu({ props, handleMenu }) {
                                 <p className="text-13-xs text-[#455464] font-normal tracking-[0.52px] leading-normal">Электрон пуллар</p>
                             </div>
                         </Link>
-                        <Link
+                        {/* <Link
                             href={'/other'}
                             className="group cursor-pointer ml-10px flex-center gap-4">
                             <Image
@@ -167,7 +167,7 @@ export default function HomeNavXsMenu({ props, handleMenu }) {
                                 </div>
                                 <p className="text-13-xs text-[#455464] font-normal tracking-[0.52px] leading-normal">Бизнинг бошқа хизматларимиз</p>
                             </div>
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
                 <HomeNavLanguageXs />

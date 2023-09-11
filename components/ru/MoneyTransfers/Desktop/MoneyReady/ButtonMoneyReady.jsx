@@ -1,5 +1,10 @@
+import Link from "next/link";
+
 export default function ButtonMoneyReady() {
   return (
-    <button className="btn-16">Попробуй</button>
+    <Link target="blank" href={'http://onelink.to/unired_mobile'}>
+
+      <button className="btn-16">Попробуй</button>
+    </Link >
   )
 }

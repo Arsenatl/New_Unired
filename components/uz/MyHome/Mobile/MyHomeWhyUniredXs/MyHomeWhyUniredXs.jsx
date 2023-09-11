@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
-import { MyHomeWhyUniredLinksXs } from './MyHomeWhyUniredLinksXs'
+import { generalLinks } from '../../GeneralLink/generalLinks'
 
 
 async function getData() {
-    const res = MyHomeWhyUniredLinksXs
+    const res = generalLinks
     return res
 }
 

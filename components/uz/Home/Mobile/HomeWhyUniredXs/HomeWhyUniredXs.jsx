@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
-import { HomeWhyUniredXsLink } from './HomeWhyUniredLinkXs'
+import { generalLinks } from '../../GeneralLink/generalLinks'
 
 async function getData() {
-    const res = HomeWhyUniredXsLink
+    const res = generalLinks
     return res
 }
 
@@ -14,7 +14,7 @@ export default async function HomeWhyUniredXs() {
         <section className='container -mt-24 mb-24'>
             <h2 className='text-13-xs'>Нега Unired</h2>
             <h3 className='text-24-xs mt-5 mb-7'>Ўзбекистондан бошқа давлатларга пул ўтказиш
-учун энг яхши мобил илова</h3>
+                учун энг яхши мобил илова</h3>
             <div className='flex flex-col gap-10 pr-24'>
                 {
                     data.map((element, value) => {

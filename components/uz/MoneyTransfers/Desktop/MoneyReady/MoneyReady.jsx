@@ -1,7 +1,7 @@
 import React from 'react'
 import ButtonMoneyReady from './ButtonMoneyReady'
 import Image from 'next/image'
-import ButtonMoneyMore from './ButtonMoneyMore'
+// import ButtonMoneyMore from './ButtonMoneyMore'
 
 export default function MoneyReady() {
     return (
@@ -22,9 +22,9 @@ export default function MoneyReady() {
                                     src={'/briefcase.svg'}
                                     alt='bag'
                                 />
-                                <h3 className='before:content-[" "] before:block before:h-4 before:w-[2px] before:bg-[#F44949] before:mr-3 before:-ml-3 flex-center text-16 mt-7'>Амаллар тезлиги</h3>
+                                <h3 className='before:content-[" "] before:block before:h-4 before:w-[2px] before:bg-[#F44949] before:mr-3 before:-ml-3 flex-center text-16 mt-7'>Операциялар тезлиги</h3>
                                 <p className='text-16 text-[#455464] font-normal tracking-normal mt-10px mb-3'>Биз билан тез ўтказмаларни амалга оширинг ва ишончли платформага эга бўлинг.</p>
-                                <ButtonMoneyMore/>
+                                {/* <ButtonMoneyMore/> */}
                             </div>
                             <div>
                                 <Image
@@ -35,7 +35,7 @@ export default function MoneyReady() {
                                 />
                                 <h3 className='before:content-[" "] before:block before:h-4 before:w-[2px] before:bg-[#F44949] before:mr-3 before:-ml-3 flex-center text-16 mt-7'>Ҳамкорлик учун</h3>
                                 <p className='text-16 text-[#455464] font-normal tracking-normal mt-10px'>Бизга қўшилинг ва молиявий операцияларингизни бугунданоқ соддалаштиринг!</p> 
-                                <ButtonMoneyMore/>
+                                {/* <ButtonMoneyMore/> */}
                             </div>
                         </div>
                     </div>

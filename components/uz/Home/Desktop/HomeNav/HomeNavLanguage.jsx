@@ -26,14 +26,14 @@ export default function HomeNavLanguage() {
             </div>
             <div onMouseLeave={() => language(false)} className={`${down} overflow-hidden absolute top-[18px] left-[8px] transition-all duration-700`}>
             <div className="rounded-[5px] bg-white">
-                    <div className="p-[10px] border-b-[1px] w-max border-[#DBE1E3]">
-                        <Link href={'/ru'} className="text-[#333]">
-                            Русский язык
-                        </Link>
-                    </div>
                     <div className="p-[10px]  border-[#DBE1E3]">
                         <Link href={'/'} className="text-[#333]">
-                            O’zbekcha
+                        Ўзбек тили
+                        </Link>
+                    </div>
+                    <div className="p-[10px] border-t-[1px] w-max border-[#DBE1E3]">
+                        <Link href={'/ru'} className="text-[#333]">
+                            Русский язык
                         </Link>
                     </div>
                 </div>

@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import img1 from '@/public/Frame 2637.svg'
-import img2 from '@/public/Frame 2638.svg'
+import img2 from '@/public/Frame 2637 (1).svg'
 
 export default function FooterUzLinks() {
 
@@ -11,24 +10,15 @@ export default function FooterUzLinks() {
                     <div className='flex flex-col'>
                         <Link
                             href={'/'}
-                            className='style-italic font-bold text-[#F44949]'>
+                            className='style-italic font-bold text-[#F44949] uppercase'>
                             Unired
                         </Link>
-                        <Link
-                            href={'+998991234567'}
-                            className='text-16 leading-5 font-semibold mt-9 mb-5'>
-                            <Image
-                                src={img1}
-                                alt='link'
-                            />
-                        </Link>
-                        <div className="">
-
+                        <Link className='mt-10' href={'http://onelink.to/unired_mobile'}>
                             <Image
                                 src={img2}
                                 alt='link'
                             />
-                        </div>
+                        </Link>
                     </div>
                     <div>
                         <ul className='flex flex-col gap-5'>
@@ -73,14 +63,14 @@ export default function FooterUzLinks() {
                                     Менинг уйим
                                 </Link>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Link
                                     href={'/other'}
                                     className='text-18 tracking-normal text-[#1C1C1C]'
                                 >
                                     Бошқа
                                 </Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     <div>

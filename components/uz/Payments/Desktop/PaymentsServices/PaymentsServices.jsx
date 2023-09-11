@@ -10,7 +10,7 @@ export default function PaymentsServices() {
             <div className="row grid grid-cols-2 gap-x-6 mt-6">
                 <div>
                     <h1 className='text-36 mt-7 mb-5'><span className='text-[#F44949]'>Unired mobile </span> билан ўнлаб хизматларга тўлов</h1>
-                    <p className='text-18 font-light'>Unired Mobile билан сиз Ўзбекистонда турли хизматларга тўлов қилиш имкониятига эга бўласиз. Коммунал хизматлар, мобил алоқа, таксилар, интернет, нотариал хизматлар, ўйинлар ва бошқа кўп нарсалар учун тўловни бизнинг қулай иловамиз орқали амалга оширинг.</p>
+                    <p className='text-18 font-light'>Unired Mobile билан сиз Ўзбекистонда турли хизматларга тўлов қилиш имкониятига эга бўласиз: Коммунал хизматлар, мобил алоқа, такси, интернет, нотариал хизматлар, ўйинлар ва бошқа тўловлар.</p>
                 </div>
 
                 <div className="wrapper mt-24">

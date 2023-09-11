@@ -1,8 +1,8 @@
 import React from 'react'
-import { UcoinWhyUniredLinks2Xs } from './UcoinWhyUniredLinks2Xs'
+import { generalLinksNum } from '../../GeneralLink/generalLinks'
 
 async function getData() {
-    const res = UcoinWhyUniredLinks2Xs
+    const res = generalLinksNum
     return res
 }
 

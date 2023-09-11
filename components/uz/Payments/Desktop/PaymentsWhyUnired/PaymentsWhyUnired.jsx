@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import { paymentWhyUnired } from './paymentWhyUnired'
+import { generalLinks } from '../../GeneralLink/generalLinks'
 
 async function getData() {
-    const res = paymentWhyUnired
+    const res = generalLinks
 
     return res
 }

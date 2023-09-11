@@ -23,9 +23,9 @@ export default function HomeFooterListXs() {
                     <li>
                         <Link href={'/my_home'} className='text-16-xs font-normal tracking-normal text-[#1C1C1C]'>Менинг уйим</Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link href={'/other'} className='text-16-xs font-normal tracking-normal text-[#1C1C1C]'>Бошқа</Link>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
             <div>

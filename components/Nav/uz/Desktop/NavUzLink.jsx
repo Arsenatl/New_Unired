@@ -11,7 +11,7 @@ export default function NavUzLink() {
 
         <Link
           href={'/'}
-          className='style-italic font-bold text-[#F44949] mr-[60px]'>
+          className='style-italic font-bold uppercase text-[#F44949] mr-[60px]'>
           Unired
         </Link>
         <div className='flex-center gap-10'>

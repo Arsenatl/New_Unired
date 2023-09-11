@@ -210,12 +210,13 @@ button.group {
   display: none !important;
 }
 
-.wrapper .outer{
+.wrapper .outer {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.wrapper .card{
+
+.wrapper .card {
   background: #fff;
   width: 430px;
   display: flex;
@@ -226,44 +227,57 @@ button.group {
   position: absolute;
   justify-content: space-between;
   border-radius: 100px 20px 20px 100px;
-  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
   animation: animate 15s linear infinite;
   animation-delay: calc(3s * var(--delay));
 }
-.outer:hover .card{
+
+.outer:hover .card {
   animation-play-state: paused;
 }
-.wrapper .card:last-child{
+
+.wrapper .card:last-child {
   animation-delay: calc(-3s * var(--delay));
 }
+
 @keyframes animate {
-  0%{
+  0% {
     opacity: 0;
     transform: translateY(100%) scale(0.5);
   }
-  5%, 20%{
+
+  5%,
+  20% {
     opacity: 0.4;
     transform: translateY(100%) scale(0.7);
   }
-  25%, 40%{
+
+  25%,
+  40% {
     opacity: 1;
     pointer-events: auto;
     transform: translateY(0%) scale(1);
   }
-  45%, 60%{
+
+  45%,
+  60% {
     opacity: 0.4;
     transform: translateY(-100%) scale(0.7);
   }
-  65%, 100%{
+
+  65%,
+  100% {
     opacity: 0;
     transform: translateY(-100%) scale(0.5);
   }
 }
-.card .content{
+
+.card .content {
   display: flex;
   align-items: center;
 }
-.wrapper .card .img{
+
+.wrapper .card .img {
   height: 90px;
   width: 90px;
   position: absolute;
@@ -271,22 +285,26 @@ button.group {
   background: #fff;
   border-radius: 50%;
   padding: 5px;
-  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
-.card .img img{
+
+.card .img img {
   height: 100%;
   width: 100%;
   border-radius: 50%;
   object-fit: cover;
 }
-.card .details{
+
+.card .details {
   margin-left: 80px;
 }
-.details span{
+
+.details span {
   font-weight: 600;
   font-size: 18px;
 }
-.card a{
+
+.card a {
   text-decoration: none;
   padding: 7px 18px;
   border-radius: 25px;
@@ -294,6 +312,131 @@ button.group {
   background: linear-gradient(to bottom, #bea2e7 0%, #86b7e7 100%);
   transition: all 0.3s ease;
 }
-.card a:hover{
+
+.card a:hover {
   transform: scale(0.94);
+}
+
+.scrollBar {
+  animation: anim 15s linear infinite;
+}
+
+@keyframes anim {
+
+  0%,
+  25% {
+    transform: translateX(-1080px);
+  }
+
+  25%,
+  50% {
+    transform: translateX(-2160px);
+
+  }
+
+  50%,
+  75% {
+    transform: translateX(-3240px);
+
+  }
+
+  75%,
+  100% {
+    transform: translateX(-4320px);
+
+  }
+
+  100%,
+  0% {
+    transform: translateX(-5400px);
+
+  }
+}
+
+#one,
+#two,
+#three,
+#four {
+  /* fill: black; */
+  transition: 5s all ease-in-out;
+}
+#one{
+  animation: oneanim 2s linear infinite;
+}
+@keyframes oneanim {
+  0%{
+    transform: translate(-30px,30px);
+    /* transform: translateY(-30px); */
+  }
+  50%{
+    transform: translate(30px,-30px);
+
+
+  }
+  100%{
+    transform: translate(-30px,30px);
+
+
+
+  }
+}
+#two{
+  animation: twoanim 2s linear infinite;
+}
+@keyframes twoanim {
+  0%{
+    transform: translate(30px,-30px);
+    /* transform: translateY(-30px); */
+  }
+  50%{
+    transform: translate(-30px,30px);
+
+
+  }
+  100%{
+    transform: translate(30px,-30px);
+
+
+
+  }
+}
+#three{
+  animation: threeanim 2s linear infinite;
+}
+@keyframes threeanim {
+  0%{
+    transform: translate(-30px,-30px);
+    /* transform: translateY(-30px); */
+  }
+  50%{
+    transform: translate(30px,30px);
+
+
+  }
+  100%{
+    transform: translate(-30px,-30px);
+
+
+
+  }
+}
+#four{
+  animation: fouranim 2s linear infinite;
+}
+@keyframes fouranim {
+  0%{
+    transform: translate(30px,30px);
+    /* transform: translateY(-30px); */
+  }
+  50%{
+    transform: translate(-30px,-30px);
+
+
+  }
+  100%{
+    transform: translate(30px,30px);
+
+
+
+  }
 }

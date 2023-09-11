@@ -10,7 +10,7 @@ export default function HomeNav() {
                 <div className="row flex-between">
                     <Link
                         href={'/ru'}
-                        className='style-italic font-bold text-white mr-[60px]'>
+                        className='style-italic font-bold uppercase text-white mr-[60px]'>
                         Unired
                     </Link>
                     <div className='flex-center gap-10'>

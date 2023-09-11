@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import img from '@/public/Frame 2637 (1).svg'
 
 export default function FooterListXs() {
     return (
@@ -23,9 +24,9 @@ export default function FooterListXs() {
                     <li>
                         <Link href={'/ru/my_home'} className='text-16-xs font-normal tracking-normal text-[#1C1C1C]'>Мой дом</Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link href={'/ru/other'} className='text-16-xs font-normal tracking-normal text-[#1C1C1C]'>Другие</Link>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
             <div>
@@ -109,6 +110,12 @@ export default function FooterListXs() {
                         <Link target='blank' href={"https://www.google.com/maps/place/5+Afrosiyob+ko'chasi,+Tashkent,+%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD/@41.305312,69.2626295,17z/data=!3m1!4b1!4m5!3m4!1s0x38ae8b2022bb3865:0xae8684b7ec63bafe!8m2!3d41.305312!4d69.2645927?hl=ru-RU&entry=ttu"} className='text-16-xs font-normal tracking-normal text-[#1C1C1C]'>Город Ташкент, Мирабадский район, ул. Афрасияб 5А</Link>
                     </li>
                 </ul>
+            </div>
+            <div>
+                <Image
+                src={img}
+                alt='qr code'
+                />
             </div>
         </div>
     )

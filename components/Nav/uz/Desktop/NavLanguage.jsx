@@ -2,10 +2,16 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { useState } from "react"
+import { usePathname } from "next/navigation"
+import { useEffect, useState } from "react"
 
 export default function NavLanguage() {
-    // const [lang, setLang] = useState()
+    const pathname = usePathname()
+    const [path, setPath] = useState()
+    useEffect(() => {
+        setPath(pathname.slice(3))
+
+    }, [pathname])
     const [rotate, setRotate] = useState('rotate-180')
     const [down, setDown] = useState('h-0')
 
@@ -27,13 +33,13 @@ export default function NavLanguage() {
             <div onMouseLeave={() => language(false)} className={`${down} overflow-hidden w-max absolute top-[18px] left-[8px] transition-all duration-700`}>
             <div className="rounded-[5px] border-[1px] border-[#DBE1E3]">
                     <div className="p-[10px] border-b-[1px] border-[#DBE1E3]">
-                        <Link href={'/ru'}>
+                        <Link href={`/ru/${pathname}`}>
                             Русский язык
                         </Link>
                     </div>
                     <div className="p-[10px]  border-[#DBE1E3]">
-                        <Link href={'/'}>
-                            O’zbekcha
+                        <Link href={`${path}`}>
+                        Ўзбек тили
                         </Link>
                     </div>
                 </div>

@@ -16,7 +16,7 @@ export default function PaymentsReadyXs() {
                         alt='icon'
                         className='ml-[22px]'
                     />
-                    <h2 className='flex-center before:content-[" "] before:block before:h-5 before:w-[2px] before:bg-[#F44949] before:mr- before:mr-5 mt-4 mb-10px text-16-xs tracking-normal text-[#1C1C1C] font-bold'>Амаллар тезлиги</h2>
+                    <h2 className='flex-center before:content-[" "] before:block before:h-5 before:w-[2px] before:bg-[#F44949] before:mr- before:mr-5 mt-4 mb-10px text-16-xs tracking-normal text-[#1C1C1C] font-bold'>Операциялар тезлиги</h2>
                     <p className="text-14-xs tracking-normal font-normal mb-6 ml-[22px]">Биз билан тез ўтказмаларни амалга оширинг ва ишончли платформага эга бўлинг.</p>
                 </div>
                 <div>

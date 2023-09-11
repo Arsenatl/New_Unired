@@ -18,8 +18,7 @@ export default function VisaHeaderXs() {
         <div>
           <h1 className="text-36-xs my-5">
             <span className="text-[#F44949]">Visa </span>
-            виртуал ва <br />
-            классик карталари
+             Virtual ва <br /> Classik карталари 
           </h1>
           <p className="text-13-xs font-light tracking-[0.52px] text-[#455464]">“Unired”да Виртуал ва Классик Visa карталар билан
 имкониятлар дунёсини очинг. Қаерда бўлишингиздан

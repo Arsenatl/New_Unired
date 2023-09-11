@@ -8,8 +8,11 @@ export default function HomeFacts() {
     const onScroll = useCallback(event => {
         const { scrollY } = window;
         const res = document.querySelector('.iphoneScroll').offsetTop
-        if (window.scrollY > res) {
+        if (window.scrollY > (res-600)) {
             setBoolean(true)
+        }else{
+            setBoolean(false)
+
         }
     }, []);
     useEffect(() => {

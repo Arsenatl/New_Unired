@@ -1,7 +1,7 @@
 import React from 'react'
 import ButtonMoneyReady from './ButtonMoneyReady'
 import Image from 'next/image'
-import ButtonMoneyMore from './ButtonMoneyMore'
+// import ButtonMoneyMore from './ButtonMoneyMore'
 
 export default function MoneyReady() {
     return (
@@ -24,7 +24,7 @@ export default function MoneyReady() {
                                 />
                                 <h3 className='before:content-[" "] before:block before:h-4 before:w-[2px] before:bg-[#F44949] before:mr-3 before:-ml-3 flex-center text-16 mt-7'>Быстрота операции</h3>
                                 <p className='text-16 text-[#455464] font-normal tracking-normal mt-10px mb-3'>С нами у вас быстрые операции и надежная платформа, обеспечивающая моментальные денежные переводы и удобные платежи.</p>
-                                <ButtonMoneyMore/>
+                                {/* <ButtonMoneyMore/> */}
                             </div>
                             <div>
                                 <Image
@@ -35,7 +35,7 @@ export default function MoneyReady() {
                                 />
                                 <h3 className='before:content-[" "] before:block before:h-4 before:w-[2px] before:bg-[#F44949] before:mr-3 before:-ml-3 flex-center text-16 mt-7'>Для сотрудничества</h3>
                                 <p className='text-16 text-[#455464] font-normal tracking-normal mt-10px'>Присоединяйтесь к нам и упростите свои финансовые операции уже сегодня!</p> <br /> <br />
-                                <ButtonMoneyMore/>
+                                {/* <ButtonMoneyMore/> */}
                             </div>
                         </div>
                     </div>

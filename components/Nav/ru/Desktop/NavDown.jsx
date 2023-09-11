@@ -11,7 +11,6 @@ export default function NavDown({ product }) {
     const [rotate, setRotate] = useState('rotate-180')
     const [blur, setBlur] = useState('pointer-events-none')
     const handleNav = (e) => {
-        console.log(e);
         e ? (setDown('h-[256px]'), setRotate('rotate-0'), setBlur('backdrop-blur')) : (setDown('h-0'), setRotate('rotate-180'), setBlur('pointer-events-none'))
         // e ? document.body.style.filter = 'blur(4px)' : document.body.style.filter = 'blur(0px)'
     }

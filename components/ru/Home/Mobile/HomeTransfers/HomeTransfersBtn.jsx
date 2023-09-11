@@ -1,9 +1,12 @@
 'use client'
 
 import Image from "next/image"
+import Link from "next/link"
 
 export default function HomeTransfersBtn({ img, text }) {
     return (
+        <Link target="blank" href={'http://onelink.to/unired_mobile'}>
+
         <button
             className="btn-full my-5"
         >
@@ -13,5 +16,6 @@ export default function HomeTransfersBtn({ img, text }) {
             />
             <p>{text}</p>
         </button>
+        </Link>
     )
 }

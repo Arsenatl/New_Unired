@@ -11,7 +11,7 @@ export default function HomeNav() {
 
                     <Link
                         href={'/'}
-                        className='style-italic font-bold text-white mr-[60px]'>
+                        className='style-italic font-bold text-white uppercase mr-[60px]'>
                         Unired
                     </Link>
                     <div className='flex-center gap-10'>

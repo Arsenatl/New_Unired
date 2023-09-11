@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import ButtonVisaReady from './ButtonVisaReady'
-import ButtonVisaMore from './ButtonVisaMore'
+// import ButtonVisaMore from './ButtonVisaMore'
 
 export default function VisaReady() {
     return (
@@ -22,9 +22,9 @@ export default function VisaReady() {
                                     src={'/briefcase.svg'}
                                     alt='bag'
                                 />
-                                <h3 className='before:content-[" "] before:block before:h-4 before:w-[2px] before:bg-[#F44949] before:mr-3 before:-ml-3 flex-center text-16 mt-7'>Амаллар тезлиги</h3>
+                                <h3 className='before:content-[" "] before:block before:h-4 before:w-[2px] before:bg-[#F44949] before:mr-3 before:-ml-3 flex-center text-16 mt-7'>Операциялар тезлиги</h3>
                                 <p className='text-16 text-[#455464] font-normal tracking-normal mt-10px mb-3'>Биз билан тез ўтказмаларни амалга оширинг ва ишончли платформага эга бўлинг.</p>
-                                <ButtonVisaMore/>
+                                {/* <ButtonVisaMore/> */}
                             </div>
                             <div>
                                 <Image
@@ -35,7 +35,7 @@ export default function VisaReady() {
                                 />
                                 <h3 className='before:content-[" "] before:block before:h-4 before:w-[2px] before:bg-[#F44949] before:mr-3 before:-ml-3 flex-center text-16 mt-7'>Ҳамкорлик учун</h3>
                                 <p className='text-16 text-[#455464] font-normal tracking-normal mt-10px'>Бизга қўшилинг ва молиявий операцияларингизни бугунданоқ соддалаштиринг!</p> 
-                                <ButtonVisaMore/>
+                                {/* <ButtonVisaMore/> */}
                             </div>
                         </div>
                     </div>

@@ -1,9 +1,9 @@
 import React from 'react'
-import { whyUniredLink } from './whyUniredLink'
 import Image from 'next/image'
+import { generalLinks } from '../../GeneralLink/generalLinks'
 
 async function getData() {
-    const res = whyUniredLink
+    const res = generalLinks
 
     return res
 }
@@ -22,16 +22,14 @@ export default async function WhyUnired() {
                                 return (
                                     <div key={value}>
                                         <Image
-                                            width={48}
-                                            height={48}
                                             src={element.img}
                                             alt='icon'
                                         />
-                                        <h3 className='text-16 flex-center before:content-[" "] before:block before:h-5 before:w-[2px] before:bg-[#F44949] before:mr-5 before:-ml-5 mt-[30px] mb-10px'>{element.logo}</h3>
+                                        <h3 className='text-16 flex-center before:content-[" "] before:block before:h-5 before:w-[2px] before:bg-[#F44949] before:mr-5 before:-ml-5 mt-[30px] mb-10px'>{element.h2}</h3>
                                         <p className='text-16 font-normal text-[#455464]'>
-                                            {element.textStart}
+                                            {element.pOne}
                                            <span className='text-[#F44949] font-semibold'>{element.span}</span>
-                                            {element.textFinish}
+                                            {element.pTwo}
                                         </p>
                                     </div>
                                 )

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import ButtonMyHomeReady from './ButtonMyHomeReady'
-import ButtonMyHomeMore from './ButtonMyHomeMore'
+// import ButtonMyHomeMore from './ButtonMyHomeMore'
 
 export default function MyHomeReady() {
     return (
@@ -21,9 +21,9 @@ export default function MyHomeReady() {
                                     src={'/briefcase.svg'}
                                     alt='bag'
                                 />
-                                <h3 className='before:content-[" "] before:block before:h-4 before:w-[2px] before:bg-[#F44949] before:mr-3 before:-ml-3 flex-center text-16 mt-7'>Амаллар тезлиги</h3>
+                                <h3 className='before:content-[" "] before:block before:h-4 before:w-[2px] before:bg-[#F44949] before:mr-3 before:-ml-3 flex-center text-16 mt-7'>Операциялар тезлиги</h3>
                                 <p className='text-16 text-[#455464] font-normal tracking-normal mt-10px mb-3'>Биз билан тез ўтказмаларни амалга оширинг ва ишончли платформага эга бўлинг.</p>
-                                <ButtonMyHomeMore/>
+                                {/* <ButtonMyHomeMore/> */}
                             </div>
                             <div>
                                 <Image
@@ -34,7 +34,7 @@ export default function MyHomeReady() {
                                 />
                                 <h3 className='before:content-[" "] before:block before:h-4 before:w-[2px] before:bg-[#F44949] before:mr-3 before:-ml-3 flex-center text-16 mt-7'>Ҳамкорлик учун</h3>
                                 <p className='text-16 text-[#455464] font-normal tracking-normal mt-10px'>Бизга қўшилинг ва молиявий операцияларингизни бугунданоқ соддалаштиринг!</p> 
-                                <ButtonMyHomeMore/>
+                                {/* <ButtonMyHomeMore/> */}
                             </div>
                         </div>
                     </div>

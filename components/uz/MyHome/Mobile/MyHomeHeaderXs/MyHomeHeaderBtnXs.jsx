@@ -1,8 +1,11 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 export default function MyHomeHeaderBtnXs() {
     return (
+        <Link target="blank" href={'http://onelink.to/unired_mobile'}>
+
         <button
             className='btn-full mt-5 mb-10'
         >
@@ -14,5 +17,6 @@ export default function MyHomeHeaderBtnXs() {
             />
             Хизматлар учун тўлов
         </button>
+        </Link>
     )
 }

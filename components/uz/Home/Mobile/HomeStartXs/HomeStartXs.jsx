@@ -1,6 +1,6 @@
 import Image from "next/image";
 import HomeStartBtnXs from "./HomeStartBtnXs";
-import HomeStartMoreBtnXs from "./HomeStartMoreBtnXs";
+// import HomeStartMoreBtnXs from "./HomeStartMoreBtnXs";
 
 export default function HomeStartXs() {
   return (
@@ -17,11 +17,11 @@ export default function HomeStartXs() {
             alt="icon"
           />
           <div className="border-transparent border-l-[#F44949] border-[2px] pl-5 mt-6 mb-2">
-            <h3 className="text-16-xs text-[#1C1C1C] tracking-normal font-bold">Амаллар тезлиги</h3>
+            <h3 className="text-16-xs text-[#1C1C1C] tracking-normal font-bold">Операциялар тезлиги</h3>
           </div>
           <div className="ml-[12px]">
             <p className="text-14-xs tracking-normal font-normal mb-6 ml-[12px]">Биз билан тез ўтказмаларни<br /> амалга оширинг ва ишончли<br /> платформага эга бўлинг.</p>
-            <HomeStartMoreBtnXs />
+            {/* <HomeStartMoreBtnXs /> */}
           </div>
         </div>
         <div>
@@ -36,7 +36,7 @@ export default function HomeStartXs() {
           </div>
           <div className="ml-[12px]">
             <p className="text-14-xs tracking-normal font-normal mb-6 ml-[12px]">Бизга қўшилинг ва молиявий <br />операцияларингизни <br />бугунданоқ соддалаштиринг!</p>
-            <HomeStartMoreBtnXs />
+            {/* <HomeStartMoreBtnXs /> */}
           </div>
         </div>
       </div>
